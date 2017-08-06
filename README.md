@@ -30,7 +30,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## -----------
 
 ## Set correct base url for serverless production
+
 <base href="https://wehrli0ngweb.blob.core.windows.net/ngsketch">
+
 https://dzone.com/articles/create-a-serverless-angular-app-with-azure-functio
 
 ## Build for production
@@ -38,13 +40,20 @@ https://dzone.com/articles/create-a-serverless-angular-app-with-azure-functio
 ng build --prod --aot 
 
 ## Upload to Azure with AZCopy
+
 AzCopy /Source:C:\Users\wehrli\Source\Repos\tyler\map-sketch\dist /Dest:https://wehrli0ngweb.blob.core.windows.net/ngsketch /DestKey:KEY /SetContentType /S
 
 https://docs.microsoft.com/en-us/azure/storage/storage-use-azcopy
+
 https://stackoverflow.com/questions/19931111/azcopy-set-the-file-content-type
 
 ## Enable local function development and testing
+
 npm i -g azure-functions-core-tools
+
 See:
     https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local
+
     https://www.npmjs.com/package/azure-functions-core-tools
+
+    https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs
