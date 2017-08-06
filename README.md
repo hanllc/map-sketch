@@ -27,16 +27,17 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-#My notes
+##-----------
 
-#Set correct base url for serverless production
+##Set correct base url for serverless production
 <base href="https://wehrli0ngweb.blob.core.windows.net/ngsketch">
 https://dzone.com/articles/create-a-serverless-angular-app-with-azure-functio
 
-#Build for production
+##Build for production
+
 ng build --prod --aot 
 
-# Upload to Azure with AZCopy
+## Upload to Azure with AZCopy
 AzCopy /Source:C:\Users\wehrli\Source\Repos\tyler\map-sketch\dist /Dest:https://wehrli0ngweb.blob.core.windows.net/ngsketch /DestKey:KEY /SetContentType /S
 
 https://docs.microsoft.com/en-us/azure/storage/storage-use-azcopy

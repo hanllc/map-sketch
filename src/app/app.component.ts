@@ -9,7 +9,7 @@ import { TestiterationsService, IBifurcation } from './testiterations.service';
 })
 
 export class AppComponent implements OnInit {
-  title = 'Tyler Map Sketch';
+  title = 'Map Sketch Concept';
 
   private width: number;
   private height: number;
