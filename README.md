@@ -27,13 +27,13 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-##-----------
+## -----------
 
-##Set correct base url for serverless production
+## Set correct base url for serverless production
 <base href="https://wehrli0ngweb.blob.core.windows.net/ngsketch">
 https://dzone.com/articles/create-a-serverless-angular-app-with-azure-functio
 
-##Build for production
+## Build for production
 
 ng build --prod --aot 
 
@@ -42,3 +42,9 @@ AzCopy /Source:C:\Users\wehrli\Source\Repos\tyler\map-sketch\dist /Dest:https://
 
 https://docs.microsoft.com/en-us/azure/storage/storage-use-azcopy
 https://stackoverflow.com/questions/19931111/azcopy-set-the-file-content-type
+
+## Enable local function development and testing
+npm i -g azure-functions-core-tools
+See:
+    https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local
+    https://www.npmjs.com/package/azure-functions-core-tools
