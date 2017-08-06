@@ -51,9 +51,8 @@ https://stackoverflow.com/questions/19931111/azcopy-set-the-file-content-type
 
 npm i -g azure-functions-core-tools
 
-See:
-    https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local
 
-    https://www.npmjs.com/package/azure-functions-core-tools
+https://www.npmjs.com/package/azure-functions-core-tools
 
-    https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs
