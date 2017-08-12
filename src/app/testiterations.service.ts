@@ -31,6 +31,3 @@ export class TestiterationsService {
   }
 
 }
-
-//Notes:
-//from https://dzone.com/articles/create-a-serverless-angular-app-with-azure-functio

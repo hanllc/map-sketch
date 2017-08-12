@@ -56,3 +56,21 @@ https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local
 https://www.npmjs.com/package/azure-functions-core-tools
 
 https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs
+
+## ESRI Java Script API and Angular
+
+Did not use - apparenty no compat with static analysis in webpack/angular-cli (begin)
+
+https://github.com/Esri/esri-system-js
+
+use the systemjs plugin for dojo
+
+https://github.com/beginor/systemjs-plugin-dojo
+
+npm i systemjs-plugin-dojo
+
+Did not use (end)
+
+Found some others but iframe looked easier for now
+
+
