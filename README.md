@@ -28,6 +28,11 @@ Before running the tests make sure you are serving the app via `ng serve`.
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## -----------
+http://localhost:4200
+
+## Angular notes reference used along the way
+
+https://github.com/angular/angular-cli/wiki/stories-asset-configuration
 
 ## Set correct base url for serverless production
 
@@ -74,3 +79,27 @@ Did not use (end)
 Found some others but iframe looked easier for now
 
 
+## reuse validation/policy as a service
+
+https://github.com/openstack/congress
+
+##reuse mapper tool avoid need for codegen for drugery
+
+https://github.com/AutoMapper/AutoMapper/
+
+## Helpfule tutorials
+
+https://www.ibm.com/developerworks/library/wa-implement-a-single-page-application-with-angular2/index.html
+
+## reuse grid compression and columnar
+
+http://bcolz.blosc.org/en/latest/
+http://blaze.readthedocs.io/en/latest/
+http://blosc.org/pages/blosc-in-depth/ 
+
+## Misc third-party to evaluate
+https://github.com/tranchis/xsd2thrift
+
+## MS Architecture
+https://www.microsoft.com/net/learn/architecture
+PDF

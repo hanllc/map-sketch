@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { TestiterationsService } from './testiterations.service';
+import { AmapComponent } from './amap/amap.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AmapComponent
   ],
   imports: [
     BrowserModule, 

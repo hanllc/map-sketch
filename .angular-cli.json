@@ -9,6 +9,7 @@
       "outDir": "dist",
       "assets": [
         "assets",
+        "assets/esrimap",
         "favicon.ico"
       ],
       "index": "index.html",
